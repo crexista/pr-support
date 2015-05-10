@@ -1,0 +1,12 @@
+akka {
+  loglevel = INFO
+}
+
+github {
+  api-token = "your api token"
+}
+
+spray.servlet {
+  boot-class = "st.crexi.Boot"
+  request-timeout = 30s
+}
