@@ -3,6 +3,7 @@ package st.crexi.implementation
 import spray.json.{DefaultJsonProtocol, JsValue}
 import st.crexi.Infrastructure.JSONObject
 import st.crexi.domain._
+import st.crexi.domain.core._
 
 import scala.util.matching.Regex
 

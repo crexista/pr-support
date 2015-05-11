@@ -1,6 +1,7 @@
 package st.crexi.adapter
 
-import st.crexi.domain.PullRequestRepository
+import st.crexi.domain.core.PullRequestRepository
+import st.crexi.domain.port.{ApplicationPersistence, PullRequestApplication}
 import st.crexi.implementation.{SprayJsonPullRequestRepository, PullRequestConverter}
 
 trait PullRequestAdapter {

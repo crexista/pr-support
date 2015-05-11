@@ -1,5 +1,4 @@
-package st.crexi.domain
-
+package st.crexi.domain.core
 
 import scala.concurrent.Future
 

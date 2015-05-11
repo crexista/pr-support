@@ -1,6 +1,6 @@
-package st.crexi.adapter
+package st.crexi.domain.port
 
-import st.crexi.domain._
+import st.crexi.domain.core._
 
 import scala.concurrent.ExecutionContext.Implicits.global
 

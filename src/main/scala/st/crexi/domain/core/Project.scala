@@ -1,5 +1,4 @@
-package st.crexi.domain
-
+package st.crexi.domain.core
 
 /**
  * githubにおける開発レポジトリ(プロジェクト)をしめすEntityです

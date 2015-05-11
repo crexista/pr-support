@@ -2,7 +2,7 @@ package st.crexi.Infrastructure
 
 import org.specs2.mutable.Specification
 import spray.json.JsonParser
-import st.crexi.domain.Opened
+import st.crexi.domain.core.Opened
 import st.crexi.implementation.PullRequestConverter
 
 

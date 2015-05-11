@@ -5,7 +5,8 @@ import spray.http.ContentTypes._
 import spray.http._
 import spray.json.{DefaultJsonProtocol, JsArray, JsonParser}
 import st.crexi.Infrastructure.github.GithubAPIRequest
-import st.crexi.domain.{Project, PullRequest, PullRequestRepository}
+import st.crexi.domain.core.{PullRequestRepository, PullRequest, Project}
+import st.crexi.domain.PullRequestRepository
 
 import scala.concurrent.{ExecutionContext, Future}
 

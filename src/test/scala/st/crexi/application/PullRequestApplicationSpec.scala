@@ -1,8 +1,10 @@
 package st.crexi.application
 
 import org.specs2.mutable.Specification
-import st.crexi.adapter.{ApplicationPersistence, PullRequestApplication}
-import st.crexi.domain.{PullRequestRepository, ReviewTask}
+import st.crexi.adapter.ApplicationPersistence
+import st.crexi.domain.PullRequestRepository
+import st.crexi.domain.core.{PullRequestRepository, ReviewTask}
+import st.crexi.domain.port.{ApplicationPersistence, PullRequestApplication}
 
 class PullRequestApplicationSpec extends Specification{
 

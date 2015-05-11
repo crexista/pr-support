@@ -1,4 +1,4 @@
-package st.crexi.domain
+package st.crexi.domain.core
 
 /**
  * 開発レポジトリに出されるプルリクのEntity

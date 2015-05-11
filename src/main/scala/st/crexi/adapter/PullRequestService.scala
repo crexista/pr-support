@@ -5,6 +5,7 @@ import spray.json.JsonParser
 import spray.routing.HttpService
 import st.crexi.Infrastructure.config.ConfigInitializer
 import st.crexi.domain._
+import st.crexi.domain.core.{Other, PullRequestEvent}
 
 import scala.concurrent.ExecutionContext.Implicits.global
 import scala.util.{Failure, Success}

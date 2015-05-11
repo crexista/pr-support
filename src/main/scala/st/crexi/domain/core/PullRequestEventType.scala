@@ -1,4 +1,4 @@
-package st.crexi.domain
+package st.crexi.domain.core
 
 sealed abstract class PullRequestEventType
 
